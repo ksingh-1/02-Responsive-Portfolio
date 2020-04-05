@@ -20,7 +20,7 @@ nav {
 
 }
 
-.nav-item {
+.navbar-item {
     text-decoration: white;
     padding: 15px;
     display: inline-block;
@@ -28,21 +28,26 @@ nav {
 }
 
 .container {
-    margin: 30px;
+    margin: 30px 
     padding: 20px;
     width: 90%;
     background-color: lightslategray
 }
 
 .card {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
 }
 
 .card-img-top {
-    max-height: 30px
+    max-height: 30px;
 }
 
 article {
-    margin-right:80px;
+    margin-right:50px;
 }
+
+.btn {
+    background-color: skyblue;
+}
+
