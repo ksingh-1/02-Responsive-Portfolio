@@ -1,0 +1,48 @@
+header {
+    overflow: auto;
+    background-color:skyblue
+}
+
+h1{
+    display: inline-block;
+    font-size: 48px;
+    color:darkolivegreen;
+    padding: 20px;
+    margin: auto;
+}
+
+nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    color: white;
+
+}
+
+.nav-item {
+    text-decoration: white;
+    padding: 15px;
+    display: inline-block;
+    color:darkolivegreen;
+}
+
+.container {
+    margin: 30px;
+    padding: 20px;
+    width: 90%;
+    background-color: lightslategray
+}
+
+.card {
+    width: 30px;
+    height: 30px;
+}
+
+.card-img-top {
+    max-height: 30px
+}
+
+article {
+    margin-right:80px;
+}
