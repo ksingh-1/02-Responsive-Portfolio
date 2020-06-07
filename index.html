@@ -7,26 +7,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Responsive Portfolio/style.css" />
-    <title>Kulpreet Singh Portfolio</title>
+    <title>Kulpreet's Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <h1>Kulpreet Singh </h1>
-        <nav>
-            <a class="navbar-item" href="about-me">About ME</a>
-            <a class="navbar-item" href="portfolio">Portfolio</a>
-            <a class="navbar-item" href="contact">Contact</a>
-
-        </nav>
     
-    </header>  
+    <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="">Kulpreet Singh </a>
+            <button class="navbar-toggler" href="index.html">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <section class="collapse navbar-collapse" id="navbarAlt">
+            <ul class="navbar-nav">   
+                <a class="nav-item nav-link active" href="index.html">About Me<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" href="contact.html">Contact</a>
+            </ul>
+        </section>
+    </nav>
     
     <main>
-        <div class="container" id="Portfolio">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Portfolio</h2>
+        <article>
+            <section class="container row col-md-12 card" id="About Me">
+                <h2 class="card-body">About Me</h2>
+            </section>
+            <section class="card border-secondary mb-3 container row col-lg-6 card card-body">
                     <ul>
                         <li> GitHub <a href="https://github.com/ksingh-1">https://github.com/ksingh-1</a> 
                         </li>
@@ -35,7 +40,7 @@
 
                     </ul>
                 
-                </div>
+            </section>
                 <div class="row">
                     <figure class = "col-md-3">
                         <img class="img-thumbnail" src="./Assets/portfolio.jpg" alt="portfolio">
@@ -43,10 +48,16 @@
         
                   <article class="col-md-3">
                       <div>
-                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, tempora. 
-                          A obcaecati quaerat delectus eius, nulla fuga? 
-                          Fugiat id, magni recusandae eveniet velit dignissimos eaque labore dolorum sunt suscipit? 
-                          Deserunt!
+                          <p>I am a Software Developer located in Oklahoma with a background in hospitality management and Psychology
+                          looking to make the change into Tech and Software Development!</p>
+
+                          <p>My fondest memories in life have been about cars and creating something that is unique, special and your own.
+                          I see technology and software very close to similar as working on cars. You can create something from scratch
+                          or work with a team to improve existing code to optimize it to be better. When you don't find me coding I'll be
+                          working in the garage fixing, replacing or upgrading cars/trucks/motorcycles. My long term goal is to work on
+                          technology and software that will be used in cars and trucks. My background in hotels lets me work and talk with
+                          people and understand their perspectives on what direction our technology is going. The outlook is positive in this
+                          industry, I want to contribute to that positivity!</p>
                       </div>
                   </article>
         
@@ -120,8 +131,7 @@
                 <label for="exampleFormControlTextarea">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea" rows="10"></textarea>
             </div>
-            <button type="submit" class="btn-primary">Submit</button>
-                
+            <button type="submit" class="btn-primary">Submit</button>    
         </form>
 
     </main>
