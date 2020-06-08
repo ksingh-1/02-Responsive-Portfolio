@@ -1,60 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./Responsive Portfolio/style.css" />
-    <title>Kulpreet Singh Portfolio</title>
-</head>
-
-<body>
-    <header>
-        <h1>Kulpreet Singh </h1>
-        <nav>
-            <a class="nav-item" href="#about-me">About ME</a>
-            <a class="nav-item" href="#portfolio">Portfolio</a>
-            <a class="nav-item" href="#contact">Contact</a>
-
-        </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- <link rel="stylesheet" href="style.css" /> -->
+        <title>Kulpreet Singh Portfolio</title>
+    </head>
     
-    </header>  
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="">Kulpreet Singh </a>
+                <button class="navbar-toggler" href="index.html">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="collapse navbar-collapse" id="navbarAlt">
+                  <ul class="navbar-nav">   
+                    <a class="nav-item nav-link active" href="index.html">About Me</a>
+                    <a class="nav-item nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="contact.html">Contact</a>
+                  </ul>
+                </section>
+            </nav>
+        </header>  
     
-    <main>
-        <div class="container" id="Portfolio">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Portfolio</h2>
-                    <ul>
-                        <li> GitHub <a href="https://github.com/ksingh-1">https://github.com/ksingh-1</a> 
-                        </li>
-                        <li> <p>Coming Soon</p>
-                        </li>
+        <main>
+            <div class="container-md">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col-mc-4">
+                        <div class="card"> <a href="https://ksingh-1.github.io/03-JavaScript-Password-Generator/" target="_blank"><img src="Assets/PW Generator.PNG" alt="Day Planner" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="card-title">Password Generator</h4>
+                                <p class="card text">Have you ever wanted to create randomized passwords that are more secure than the standard password? 
+                                    With this application you can easily define your parameters and make a secure password!</p>
+                                <a class="btn btn-primary btn-md" href="https://ksingh-1.github.io/03-JavaScript-Password-Generator/" target="_blank" role="button">Open App</a>
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="col-mc-4">
+                        <div class="card"> <a href="https://ksingh-1.github.io/05-Day-Planner/" target="_blank"><img src="Assets/Day Planner App.gif" alt="Day Planner" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="card-title">Day Planner</h4>
+                                    <p class="card text">This easy to use application lets you schedule activities on the corresponding hours of the day! 
+                                        The hours that have passed will be greyed out, red indicates current time, green are for hours/activities to come.</p>
+                                    <a class="btn btn-primary btn-md" href="https://ksingh-1.github.io/05-Day-Planner/" target="_blank" role="button">Open App</a>
+                            </div>
+                        </div>
+                    </div>
 
-                    </ul>
-                
-                </div>
-                <div class="row">
-                    <figure class = "col-md-3">
-                        <img class="img-thumbnail" src="./Assets/portfolio.jpg" alt="portfolio">
-                    </figure>
-        
-                    <article class="col-md-3">
-                        <div>
-                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, tempora. 
-                          A obcaecati quaerat delectus eius, nulla fuga? 
-                          Fugiat id, magni recusandae eveniet velit dignissimos eaque labore dolorum sunt suscipit? 
-                          Deserunt!
-                       </div>
-                    </article>
-        
-        
-                </div>
+                    <div class="col-mb-4">
+                        <div class="card"> <a href="https://ksingh-1.github.io/05-Day-Planner/" target="_blank"><img src="assets/day-planner.jpg" alt="Day Planner" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="card-title">Day Planner</h4>
+                                    <p class="card text">This easy to use application lets you schedule activities on the corresponding hours of the day!</p>
+                                    <a class="btn btn-primary btn-md" href="https://ksingh-1.github.io/05-Day-Planner/" target="_blank" role="button">Open App</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-mb-4">
+                        <div class="card"> <a href="https://ksingh-1.github.io/05-Day-Planner/" target="_blank"><img src="assets/day-planner.jpg" alt="Day Planner" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h4 class="card-title">Day Planner</h4>
+                                    <p class="card text">This easy to use application lets you schedule activities on the corresponding hours of the day!</p>
+                                    <a class="btn btn-primary btn-md" href="https://ksingh-1.github.io/05-Day-Planner/" target="_blank" role="button">Open App</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
             </div>
-        </div>
-    </main>
+        </main>               
 
     </body>
-    </html>
+</html>
