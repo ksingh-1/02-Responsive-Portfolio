@@ -1,10 +1,4 @@
-header {
-    overflow: auto;
-    background-color:rgb(192, 217, 226);
-
-}
-
-h1{
+.h1{
     display: inline-block;
     font-size: 48px;
     color:darkolivegreen;
@@ -12,47 +6,88 @@ h1{
     margin: auto;
 }
 
-nav {
-    padding-top: 20px;
-    margin-right: 20px;
-    float: left;
-    font-size: 20px;
-    color: white;
-
-}
-
-.navbar-item {
-    text-decoration: white;
-    padding: 15px;
-    display: inline-block;
-    color:darkolivegreen;
-}
-
-.container {
-    margin: 30px 
-    padding: 20px;
-    width: 90%;
-    background-color: lightslategray
-}
-
-.card {
-    width: 15px;
-    height: 15px;
-}
-
-.card-img-top {
-    max-height: 30px;
-}
-
-article {
-    margin-right:50px;
-}
-
-.btn {
-    background-color: skyblue;
+.h2 {
+    padding: 40px;
+    margin: auto;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.col-4 {
+    flex: 30%;
+    max-width: 30%;
+    margin-left: 80px;
+}
+
+.col-8 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-10 {
+    flex: 0 0 50%;
+    max-width: 100%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.img-thumbnail {
+    padding: .5rem;
+    background-color:black;
+    border:black;
+    border-radius:.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact {
+    justify-content:center;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.fa {
+    padding:25px;
+    font-size:40px;
+    width: 40px;
+    text-align:center;
+}
+
+.fa-linkedin {
+    background-color: black;
+    color: white
+}
+
+.contact-body {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.form-group {
+    display: block;
+    width: 100%;
+    padding: .5rem
 }
