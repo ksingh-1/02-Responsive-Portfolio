@@ -1,12 +1,13 @@
 .h1{
     display: inline-block;
-    font-size: 48px;
+    font-size: 2.5rem;
     color:darkolivegreen;
     padding: 20px;
     margin: auto;
 }
 
-.h2 {
+.h2, h2 {
+    font-size: 2rem;
     padding: 40px;
     margin: auto;
 }
@@ -26,7 +27,7 @@
 
 .col-8 {
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .col-10 {
@@ -91,4 +92,8 @@
     display: block;
     width: 100%;
     padding: .5rem
+}
+
+.article {
+    display:block;
 }
