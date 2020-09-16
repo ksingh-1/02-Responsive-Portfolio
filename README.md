@@ -8,9 +8,7 @@
     </a>
 </p>
 
-## Title
-Responsive Portfolio
-![Screenshot](https://github.com/ksingh-1/)
+## Responsive Portfolio
 
 ## Description
 This Is A Responsive Layout Portfolio Created While In The Full Stack Coding Program At Southern Methodist University!
